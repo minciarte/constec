@@ -16,7 +16,7 @@
   <body>
     <div
       class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden"
-      style="--select-button-svg: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(96,118,138)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e'); font-family: Inter, &quot;Noto Sans&quot;, sans-serif;"
+      style="--select-button-svg: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(96,118,138)%27 viewBox=%270 0 256 256%27%3e%3cpat[...]"
     >
       <div class="layout-container flex h-full grow flex-col">
         <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f5] px-10 py-3">
@@ -25,7 +25,7 @@
               <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_6_319)">
                   <path
-                    d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"
+                    d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6[...]"
                     fill="currentColor"
                   ></path>
                 </g>
@@ -38,22 +38,40 @@
           </div>
           <div class="flex flex-1 justify-end gap-8">
             <div class="flex items-center gap-9">
-              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Dashboard</a>
-              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Articles</a>
-              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Orders</a>
-              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Customers</a>
-              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Suppliers</a>
-              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Reports</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Tablero</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Artículos</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Órdenes</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Clientes</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Proveedores</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Reportes</a>
             </div>
             <div
               class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
-              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCH9u3MIyZH2Yp5wCewZYxL0FgIn_qiHkKx6CfkW-YEg7LtlYcNAfq--8shM5iOU-OH10YhHlub81JxCaSEPZQwEbsSowscNMMyUYzPCUxhk3Di7szemc8xUeS0Me3lMUKbR9RFwzdxF9IRBKdpOz0_MkE6luCqt6QTAWunFeugh3Zu-Pu-SNoddwrwTqlNqmQYBPI5GZ8A-am0E7Bl7BUswQ0ZgehP_qChPkMfYdAaFLA-CoVGZ_dIcU_98ZtJeQw5fG-FVtIlEfkd");'
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCH9u3MIyZH2Yp5wCewZYxL0FgIn_qiHkKx6CfkW-YEg7LtlYcNAfq--8shM5iOU-OH10YhHlub81JxCaSEPZQwEbsSowscNMMyUYzPCU[...]'
             ></div>
           </div>
         </header>
         <div class="px-40 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#111518] tracking-light text-[32px] font-bold leading-tight min-w-72">Articles</p></div>
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-[#111518] tracking-light text-[32px] font-bold leading-tight min-w-72">Artículos</p>
+              <div class="flex gap-2">
+                <button
+                  onclick="window.location.href='NuevoArt.html'"
+                  class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg shadow"
+                  type="button"
+                >
+                  Añadir nuevo artículo
+                </button>
+                <button
+                  onclick="window.location.href='NuevaVariante.html'"
+                  class="bg-gray-700 hover:bg-gray-800 text-white font-semibold px-4 py-2 rounded-lg shadow"
+                  type="button"
+                >
+                  Añadir variación
+                </button>
+              </div>
+            </div>
             <div class="px-4 py-3">
               <label class="flex flex-col min-w-40 h-12 w-full">
                 <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
@@ -70,8 +88,8 @@
                     </svg>
                   </div>
                   <input
-                    placeholder="Search by code, class, description, attribute 1, attribute 2, attribute 3"
-                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f2f5] focus:border-none h-full placeholder:text-[#60768a] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                    placeholder="Buscar por código, clase, descripción, atributo 1, atributo 2, atributo 3"
+                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f2f5] focus:border-none h-full pl-2"
                     value=""
                   />
                 </div>
@@ -79,28 +97,28 @@
             </div>
             <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
               <label class="flex flex-col min-w-40 flex-1">
-                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Element 1</p>
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Elemento 1</p>
                 <input
-                  placeholder="Select element"
-                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f2f5] focus:border-none h-14 placeholder:text-[#60768a] p-4 text-base font-normal leading-normal"
+                  placeholder="Selecciona elemento"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f2f5] focus:border-none h-14 placeholder:text-[#b0b4ba]"
                   value=""
                 />
               </label>
               <label class="flex flex-col min-w-40 flex-1">
-                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Element 2</p>
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Elemento 2</p>
                 <input
-                  placeholder="Select element"
-                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f2f5] focus:border-none h-14 placeholder:text-[#60768a] p-4 text-base font-normal leading-normal"
+                  placeholder="Selecciona elemento"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f2f5] focus:border-none h-14 placeholder:text-[#b0b4ba]"
                   value=""
                 />
               </label>
             </div>
             <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
               <label class="flex flex-col min-w-40 flex-1">
-                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Element 3</p>
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Elemento 3</p>
                 <input
-                  placeholder="Select element"
-                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f2f5] focus:border-none h-14 placeholder:text-[#60768a] p-4 text-base font-normal leading-normal"
+                  placeholder="Selecciona elemento"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f2f5] focus:border-none h-14 placeholder:text-[#b0b4ba]"
                   value=""
                 />
               </label>
